@@ -1,0 +1,52 @@
+
+application {
+  config {
+    baseName SO3InventionCalculator,
+    applicationType monolith,
+    packageName com.so3,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+    devDatabaseType h2Disk,
+    clientFramework react
+  }
+  entities *
+}
+
+entity Discipline {
+Name String, 
+HelperDevice String 
+}
+
+entity DisciplineSkill {
+Integer SkillModifier
+}
+
+entity Inventor {
+Name String,
+TimeModifer Integer,
+CostModifier Integer
+}
+
+entity Invention { 
+Name String,
+Cost Integer,
+Difficulty Integer
+}
+
+relationship OneToMany  {
+ Inventor to DisciplineSkill
+}
+
+relationship OneToMany {
+  Discipline to DisciplineSkill
+}
+
+relationship OneToMany { 
+ Discipline to Invention
+}
+
+relationship OneToMany { 
+ Invention to Inventor
+}
+
+    

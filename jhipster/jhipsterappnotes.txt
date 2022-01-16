@@ -1,0 +1,10 @@
+Create .jdl file with jdl studio at 
+https://www.jhipster.tech/creating-an-entity/
+
+https://start.jhipster.tech/jdl-studio/
+
+had to consult 
+https://www.jhipster.tech/jdl/applications
+ for options 
+
+ 
