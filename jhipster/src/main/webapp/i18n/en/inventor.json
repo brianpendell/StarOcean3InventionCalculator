@@ -1,0 +1,28 @@
+{
+  "so3InventionCalculatorApp": {
+    "inventor": {
+      "home": {
+        "title": "Inventors",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Inventor",
+        "createOrEditLabel": "Create or edit a Inventor",
+        "notFound": "No Inventors found"
+      },
+      "created": "A new Inventor is created with identifier {{ param }}",
+      "updated": "A Inventor is updated with identifier {{ param }}",
+      "deleted": "A Inventor is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Inventor {{ id }}?"
+      },
+      "detail": {
+        "title": "Inventor"
+      },
+      "id": "ID",
+      "name": "Name",
+      "timeModifer": "Time Modifer",
+      "costModifier": "Cost Modifier",
+      "disciplineSkill": "Discipline Skill",
+      "invention": "Invention"
+    }
+  }
+}

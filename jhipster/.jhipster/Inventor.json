@@ -1,0 +1,41 @@
+{
+  "name": "Inventor",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "timeModifer",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "costModifier",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "disciplineSkill",
+      "otherEntityRelationshipName": "inventor",
+      "relationshipName": "disciplineSkill"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "invention",
+      "otherEntityRelationshipName": "inventor",
+      "relationshipName": "invention"
+    }
+  ],
+  "entityTableName": "inventor",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["SO3InventionCalculator"],
+  "changelogDate": "20220116192040"
+}

@@ -18,7 +18,7 @@ HelperDevice String
 }
 
 entity DisciplineSkill {
-Integer SkillModifier
+SkillModifier Integer
 }
 
 entity Inventor {

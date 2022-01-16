@@ -1,0 +1,33 @@
+{
+  "name": "DisciplineSkill",
+  "fields": [
+    {
+      "fieldName": "skillModifier",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "inventor",
+      "otherEntityRelationshipName": "disciplineSkill",
+      "relationshipName": "inventor"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "discipline",
+      "otherEntityRelationshipName": "disciplineSkill",
+      "relationshipName": "discipline"
+    }
+  ],
+  "entityTableName": "discipline_skill",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["SO3InventionCalculator"],
+  "changelogDate": "20220116192039"
+}

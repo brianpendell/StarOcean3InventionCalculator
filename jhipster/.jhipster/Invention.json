@@ -1,0 +1,41 @@
+{
+  "name": "Invention",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cost",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "difficulty",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "inventor",
+      "otherEntityRelationshipName": "invention",
+      "relationshipName": "inventor"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "discipline",
+      "otherEntityRelationshipName": "invention",
+      "relationshipName": "discipline"
+    }
+  ],
+  "entityTableName": "invention",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["SO3InventionCalculator"],
+  "changelogDate": "20220116192041"
+}

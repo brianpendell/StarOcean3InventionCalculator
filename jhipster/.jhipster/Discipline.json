@@ -1,0 +1,37 @@
+{
+  "name": "Discipline",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "helperDevice",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "disciplineSkill",
+      "otherEntityRelationshipName": "discipline",
+      "relationshipName": "disciplineSkill"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "invention",
+      "otherEntityRelationshipName": "discipline",
+      "relationshipName": "invention"
+    }
+  ],
+  "entityTableName": "discipline",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["SO3InventionCalculator"],
+  "changelogDate": "20220116192038"
+}

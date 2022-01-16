@@ -1,0 +1,28 @@
+{
+  "so3InventionCalculatorApp": {
+    "invention": {
+      "home": {
+        "title": "Inventions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Invention",
+        "createOrEditLabel": "Create or edit a Invention",
+        "notFound": "No Inventions found"
+      },
+      "created": "A new Invention is created with identifier {{ param }}",
+      "updated": "A Invention is updated with identifier {{ param }}",
+      "deleted": "A Invention is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Invention {{ id }}?"
+      },
+      "detail": {
+        "title": "Invention"
+      },
+      "id": "ID",
+      "name": "Name",
+      "cost": "Cost",
+      "difficulty": "Difficulty",
+      "inventor": "Inventor",
+      "discipline": "Discipline"
+    }
+  }
+}

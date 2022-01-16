@@ -1,0 +1,27 @@
+{
+  "so3InventionCalculatorApp": {
+    "discipline": {
+      "home": {
+        "title": "Disciplines",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Discipline",
+        "createOrEditLabel": "Create or edit a Discipline",
+        "notFound": "No Disciplines found"
+      },
+      "created": "A new Discipline is created with identifier {{ param }}",
+      "updated": "A Discipline is updated with identifier {{ param }}",
+      "deleted": "A Discipline is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Discipline {{ id }}?"
+      },
+      "detail": {
+        "title": "Discipline"
+      },
+      "id": "ID",
+      "name": "Name",
+      "helperDevice": "Helper Device",
+      "disciplineSkill": "Discipline Skill",
+      "invention": "Invention"
+    }
+  }
+}

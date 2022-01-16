@@ -1,0 +1,26 @@
+{
+  "so3InventionCalculatorApp": {
+    "disciplineSkill": {
+      "home": {
+        "title": "Discipline Skills",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Discipline Skill",
+        "createOrEditLabel": "Create or edit a Discipline Skill",
+        "notFound": "No Discipline Skills found"
+      },
+      "created": "A new Discipline Skill is created with identifier {{ param }}",
+      "updated": "A Discipline Skill is updated with identifier {{ param }}",
+      "deleted": "A Discipline Skill is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Discipline Skill {{ id }}?"
+      },
+      "detail": {
+        "title": "Discipline Skill"
+      },
+      "id": "ID",
+      "skillModifier": "Skill Modifier",
+      "inventor": "Inventor",
+      "discipline": "Discipline"
+    }
+  }
+}

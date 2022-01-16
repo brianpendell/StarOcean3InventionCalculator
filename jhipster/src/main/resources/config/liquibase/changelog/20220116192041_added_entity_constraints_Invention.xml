@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity Invention.
+    -->
+    <changeSet id="20220116192041-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="discipline_id"
+                                 baseTableName="invention"
+                                 constraintName="fk_invention__discipline_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="discipline"/>
+    </changeSet>
+</databaseChangeLog>
